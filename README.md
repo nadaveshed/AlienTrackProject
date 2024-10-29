@@ -51,30 +51,28 @@ To run the project, follow these steps:
    git clone https://github.com/yourusername/alien-management-system.git
    cd alien-management-system
 
-2. **Navigate to the Backend Directory The Spring Boot files are located in the main folder.**
+2. **Navigate to the Backend Directory** The Spring Boot files are located in the main folder.**
 
-Run the Spring Boot Application
+3. **Run the Spring Boot Application**
 
-Ensure you have Java Development Kit (JDK) installed (version 11 or higher).
-Use Maven to build and run the application:
-bash
-Copy code
-./mvnw spring-boot:run
-The server will start on http://localhost:8080.
-Frontend (React)
-Navigate to the Frontend Directory The React application files are in the main folder.
+- Ensure you have Java Development Kit (JDK) installed (version 11 or higher).
+- Use Maven to build and run the application:
+   ```bash
+   ./mvnw spring-boot:run
+- The server will start on http://localhost:8080.
 
-Install Dependencies
 
-Make sure you have Node.js and npm installed.
-bash
-Copy code
-npm install
-Run the React Application
+## Frontend (React)
+1. **Navigate to the Frontend Directory** The React application files are in the main folder.
 
-bash
-Copy code
-npm start
-The React app will open in your default web browser at http://localhost:3000.
-Multi-Tab Functionality
+2. **Install Dependencies**
+
+- Make sure you have Node.js and npm installed.
+   ```bash
+   npm install
+3. **Run the React Application**
+    ```bash
+   npm start
+-  The React app will open in your default web browser at http://localhost:3000.
+### Multi-Tab Functionality
 The application is designed to handle changes across multiple tabs. Any updates made in one tab will be reflected in all open tabs in real-time.
