@@ -1,0 +1,5 @@
+export enum AlienType {
+    WARRIOR = "WARRIOR",
+    COMMANDER = "COMMANDER",
+    CHIEF_COMMANDER = "CHIEF_COMMANDER",
+}
